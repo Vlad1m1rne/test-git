@@ -12,6 +12,7 @@ margin: 0;
                         "a m"
                         "f f";
 }
+
 .head{
 background-color: rgb(0,200,100);    
 grid-area: h;
