@@ -30,3 +30,12 @@ grid-area:m;
   background-color: rgb(12, 128, 128);
 grid-area: f;
 }
+
+.red{
+  background: red;
+}
+
+.font{
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
