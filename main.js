@@ -38,7 +38,7 @@ let btn3 = document.createElement("button");
 $("div.baner").before(btn3);
 $("button").eq(2).text("stop!!!");
 $("button").eq(2).click(function(){
-  $(".baner").stop();
+  $("div.baner").stop();
 });
 
 
