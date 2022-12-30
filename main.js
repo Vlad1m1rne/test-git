@@ -13,11 +13,33 @@ $("input").attr({"type":"button",
                   });
 $("input").click(function(){
   $(".head").toggleClass("font");
-})
+});
 
+$("div.baner").html("<p>Это банер!</p><span>Excepturi sequi, dicta beatae obcaecati quis minima distinctio expedita? Possimus dignissimos velit error laborum et reiciendis iusto vero rerum libero officiis amet saepe placeat, ut quo quasi asperiores, obcaecati eum, earum aut at fugit porro.</span>");
 
+let btn1 = document.createElement("button");
+$("div.baner").before(btn1);
+$("button").eq(0).text("Slide");
+$("button").eq(0).click(function(){
+  $("div.baner").slideToggle(2000);
+});
 
+let btn2 = document.createElement("button");
+$("div.baner").before(btn2);
+$("button").eq(1).text("Animate");
+$("button").eq(1).click(function(){
+  $(".baner").animate({width:"150px",
+                       height: "250px",
+                       overflow: "auto",
+                      fontSize:"0.8em"})
+});
 
+let btn3 = document.createElement("button");
+$("div.baner").before(btn3);
+$("button").eq(2).text("stop!!!");
+$("button").eq(2).click(function(){
+  $(".baner").stop();
+});
 
 
 });
