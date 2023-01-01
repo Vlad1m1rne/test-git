@@ -41,5 +41,7 @@ $("button").eq(2).click(function(){
   $("div.baner").stop();
 });
 
+$("div.file").load("text.txt");
+$("div.file").html("<span>Вставка</span>");
 
 });
