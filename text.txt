@@ -13,4 +13,5 @@ commit for rebase
 !!!
 =======
  text style
->>>>>>> 4a0aa9a (s1)
+commit from bra
+again bra
