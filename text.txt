@@ -8,3 +8,4 @@ new text master
 NEW commit
 super com
 commit master
+commit for rebase
