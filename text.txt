@@ -15,3 +15,6 @@ commit for rebase
  text style
 commit from bra
 again bra
+<<<<<<< HEAD
+commit master
+commit bra 2222
