@@ -7,6 +7,10 @@ text style branch
 new text master
 NEW commit
 super com
+<<<<<<< HEAD
 commit master
 commit for rebase
 !!!
+=======
+ text style
+>>>>>>> 4a0aa9a (s1)
