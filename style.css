@@ -36,8 +36,7 @@ grid-area: f;
 }
 
 .font{
-  font-size: 1.1em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'georgia';
 }
 .baner{
   position:relative;
@@ -50,4 +49,14 @@ grid-area: f;
 }
 .baner p{
   color:darkred;
+}
+h1{
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.z{
+  color: rgb(150, 20, 40);
+  font: 3em Georgia;
 }

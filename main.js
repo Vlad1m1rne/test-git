@@ -41,7 +41,26 @@ $("button").eq(2).click(function(){
   $("div.baner").stop();
 });
 
-$("div.file").load("text.txt");
+// $("div.file").load("text.txt");
 $("div.file").html("<span>Вставка</span>");
+
+$(".m h1").click(function(){
+  $(".m h1").animate({
+    right : "50px",
+    opacity : "0.5",
+   fontSize : "2.5em",
+   fontFamily : "Arial, Helvetica",
+  },1500);
+});
+
+let btn5 = document.createElement("button");
+$(".m h1").after(btn5);
+$("button").eq(0).text("push");
+$("button").eq(0).click(function(){
+  $(".m h1").toggleClass("z")});
+
+
+
+
 
 });
