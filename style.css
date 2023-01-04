@@ -58,5 +58,28 @@ h1{
 
 .z{
   color: rgb(150, 20, 40);
-  font: 3em Georgia;
+  font-family: Georgia;
+  text-shadow: 1px 1px 1px;
+}
+
+header h2{
+  text-align: center;
+  position: absolute;
+  left: 500px;
+  top: 10px;
+}
+
+#ic{
+  position: absolute;
+  left: 400px;
+  top: 30px;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#ic:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
