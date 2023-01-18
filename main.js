@@ -42,7 +42,7 @@ $("button").eq(2).click(function(){
 });
 
 // $("div.file").load("text.txt");
-$("div.file").html("<span>Вставка</span>");
+// $("div.file").html("<span>Вставка</span>");
 
 $(".m h1").click(function(){
   $(".m h1").animate({
@@ -59,8 +59,25 @@ $("button").eq(0).text("push");
 $("button").eq(0).click(function(){
   $(".m h1").toggleClass("z")});
 
-
-
-
+let btn7 = document.createElement("button");
+$(".sidebar").append(btn7);
+$(".sidebar button").eq(0).text("clear");
+$(".sidebar button").eq(0).click(function(){
+  $("ol").remove();
+});
+let inp1 = document.createElement("input");
+let btn8 = document.createElement("button");
+$(".sidebar").prepend(inp1);
+$(".sidebar").prepend(btn8);
+$(".sidebar button").eq(0).text("Отправить");
+$(".sidebar input").attr({
+  type:"text",
+  placeholder:"ВВедите текст"
+});
+$(".sidebar button").eq(0).click(function(){
+  let text = $(".sidebar input").val();
+  let p = `<p>${text}</p>`;
+  $(".m").append(p);
+});
 
 });
